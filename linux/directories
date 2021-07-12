@@ -1,0 +1,42 @@
+mkdir 
+-------
+byusing mkdir we can create directories
+
+
+ex mkdir directory name
+
+
+ls
+-----
+ls is the command is used to lists the files and directories
+
+ls -l
+------
+long lists all commands
+
+ls -a 
+------
+lists hidden files
+
+ls -lta
+-------
+lists by time based
+
+
+directories inside another
+--------------------------
+mkdir -p dir1/dir2/dir3
+
+by giving this dir3 is created inside dir2 and dir2 is created inside dir1
+
+cd dir 
+-------
+change directory cd dir name
+we can enter i to directory name 
+
+cd ..
+we can get back to previous location
+
+cd ../..
+
+we can go back to 2 previous locations

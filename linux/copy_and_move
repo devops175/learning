@@ -1,0 +1,42 @@
+copy
+-----
+syn: cp source_filename destination_filename
+
+ex: cp file dir1
+
+copies file1 in directory 1
+
+ex: cp -r dira dirb
+
+to copy a directory in another directory we should use recursive
+
+its like copy and paste in windows
+
+move
+______
+
+SYNTAX  mv source_file destination_file
+------
+ 
+ ex: mv file1 file2
+ 
+ its like cut and paste in windows
+
+ rename
+ --------
+for rename also we use mv only 
+
+mv old_name new_name
+
+remove files/directories
+-----------------------
+
+rm filename
+
+rmdir dirname
+
+rm -rf file/directory
+
+tree
+-----
+tree is the command works like ls only but tree gives you the clear picture 

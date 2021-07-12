@@ -1,0 +1,44 @@
+grep
+-----
+for searching particular word we use grep command
+
+ex grep root /etc/passwd
+
+it gives you only statements containing the word root
+
+LESS/MORE/HEAD/TAIL
+--------------------
+ex cat /etc/passwd
+
+gives the data
+
+less /etc/passwd
+
+gives you less data
+
+more /etc/passwd
+
+gives you more data
+
+head /etc/passwd
+
+gives you top 10 lines data
+
+head -3 /etc/passwd
+
+gives you top 3 lines
+
+tail -3 /etc/passwd
+
+gives you bottom 3 lines
+
+sort
+-----
+
+sort filename
+
+gives you the file content in alphabetical order
+`
+
+
+

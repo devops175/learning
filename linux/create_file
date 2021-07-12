@@ -2,13 +2,36 @@ how to create files in linux
 ----------------------------
 1.. cat
 -------
+by yusing cat command we can read the data.. we cant write or append the data 
+
+syn: cat filename
+
+cat > filename ---> by using cat > we can write the data and it overrides the data if already exists in a file 
+
+
+cat >> filename ----> by using cat >> we can read the data and also append the data
+
+after writing data ,by pressting ctrl+d we cam come out from the file
 
 2.. touch
 --------
+by using touch we can create emypty files only we cant write or read data we just only create n number of empty files
 
 3.. nano
-
 --------
+we can edit data by using nano 
+
+ex nano file name 
 
 4.. vim/vi
 ---------
+vi/vim is the editor by which we can edit data or add data 
+
+ex vi file name
+
+
+
+note :  there is no difference between vi and nano functioning is similar for both editors
+
+
+
