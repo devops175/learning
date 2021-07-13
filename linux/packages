@@ -1,0 +1,47 @@
+to install any package we use YUM command
+
+YUM - yellow log update modifier
+
+ex--->
+
+yum install tree -y
+yum install httpd -y
+yum istall docker -y
+
+to list all installed programs
+----------------------------------
+yum list installed
+
+which 
+------
+which command is used to check whether the package is instaaled or not
+
+ex
+----
+which git
+which tree
+which httpd
+
+start service
+---------------
+ex
+---
+service httpd start (or) systemctl start httpd
+
+stop service
+-------------
+ex
+---
+service httpd stop (or) systemctl stop httpd
+
+to check status
+----------------
+service httpd status (or) systemctl status httpd
+
+automatic start
+-----------------
+chkconfig httpd on (or) systemctl enable httpd
+
+to turn off
+-----------
+chkconfig httpd off (or) systemctl disable httpd

@@ -1,0 +1,37 @@
+
+softlink
+---------
+
+in general s/w downloaded in windows saved to program files where as in linux they will save into var/www/html.... just like windows we can create shortcut to any file 
+and thats called as softlink
+
+if we delete softlink we can recover from main file but if we delete main file you cant get from softlink
+
+
+HARDLINK
+----------
+
+hardlink is kind of backup...if we delete main file you cant loose data
+
+	softlink				hardlink
+	--------				---------
+1. data is redirected			1.data is copied
+2. data is not physically present	2.data is physically present
+3. if main file deleted,we will loose 	3. if main file deleted, we dont loose hardlink
+   softlink
+ 
+
+ syntax
+ ------
+
+ ln -s mainfile_name duplicatefile_name
+     
+ s ---> softlink
+
+ ln ----> linkfile
+
+
+ ln -h mainfile_name duplicatefile_name
+
+
+

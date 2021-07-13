@@ -1,0 +1,58 @@
+to add user
+-------------
+useradd username
+
+to see user list
+--------------
+cat /etc/passwd
+
+create group
+------------
+groupadd groupname
+
+
+to see group list
+------------------
+cat /etc/group
+
+adding user to group
+---------------------
+
+gpasswd -a username groupname
+
+
+
+to add multiple users to group
+--------------------------------
+
+gpasswd -M user1,user2,,,, group name
+
+
+to delete users
+---------------
+gpasswd -d username groupname
+
+
+
+
+switching as user
+------------------
+  vi /etc/ssh/sshd_config 
+
+
+  make password authetication as yes
+
+
+  setting password to user
+  -------------------------------
+
+  passwd username
+
+  enter password and confirm it
+
+
+  log-in as user
+  ---------------
+  username@ipaddress
+
+  give password

@@ -1,0 +1,40 @@
+
+	r- read
+	w- write
+	x- execute
+
+for directory
+--------------
+rwx r-x r-x
+ 
+ rwx--first column ---owners
+
+ r-x ---second column ----> group
+
+ r-x -----> third colum ----> others
+
+
+ for file
+ ----------
+
+ rw- r-- r--
+
+ rw- ----> owners
+ r-- ----> group
+ r-- -----> others
+
+ numerical permissions
+ ----------------------
+
+ read -4
+ write -2
+ execute 1
+
+ so for directory we have --->755
+ for file 	we have  ----->644
+
+ to change permissions
+ ---------------------
+  we use chmod -----> others
+  we use chown ------> owners
+  we use chgrp -------> group

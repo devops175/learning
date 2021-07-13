@@ -38,6 +38,19 @@ sort
 sort filename
 
 gives you the file content in alphabetical order
+
+hostname
+-------
+gives the machine name
+
+ifconfig
+---------
+displays ip address
+
+to check os
+-----------
+cat /etc/0s-release
+
 `
 
 

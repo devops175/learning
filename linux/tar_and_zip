@@ -1,0 +1,42 @@
+
+ZIP
+----
+
+	zip is a file not a folder...when we applyzip on any folder its called as file only and it compresses the size
+
+
+TAR
+----
+	tar is kind of packing ,in the process of packing little size may reduce ..but not like compressing in zip
+
+
+ex
+---
+     tar	    zip
+dirx --->  dirx.tar -----> dirx.tar.gz
+
+
+dirx.tar.gz ----> dirx.tar -----> dirx 
+	    unzip	    untar
+
+
+TO APPLY TAR/zip
+--------------
+tar-cvf dirx
+
+cvf ---> create verb force
+
+gzip dirx.tar
+
+
+unzip 
+-------
+ 
+ gunzip dirx.tar.gz
+
+
+ untar
+ ------
+ tar-xvf dirx.tar
+
+ xvf ---> extract verb force
