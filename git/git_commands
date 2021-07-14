@@ -1,0 +1,34 @@
+git status
+-----------
+	git status is the command is used to check the status 0f the files whether they are in workspace,staging/index or in local repository
+
+
+git add
+-------
+
+	git add command is used to move files from workspace to staging/index
+
+
+git add filename ----> for single file
+
+git add filename filename ------> for multiple files
+
+git add . ----> all files at a time
+ 
+ git add * -----> all files
+
+ git add -A ----> all files
+
+ git add --all ---> all files
+
+
+ git commit
+ -----------
+  git commit command is used to move files from staging to local repo
+
+  git commit -m "message"
+
+  git reset
+  ----------
+   reset command is used to move files from staging to working directory
+
